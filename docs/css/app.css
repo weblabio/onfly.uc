@@ -49,6 +49,9 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+    body {
+        background-position-x: 35%;
+    }
     .logo,
     .message {
         left: 40px;
@@ -58,6 +61,9 @@ body {
 }
 
 @media only screen and (max-width: 414px) {
+    body {
+        background-position-x: 37%;
+    }
     .logo > img {
         width: 200px;
     }
